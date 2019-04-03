@@ -22,11 +22,7 @@ class ViewController: UIViewController {
             return
         }
         
-        do {
-            try mapView.customize(withJSONFileURL: jsonURL)
-        } catch let error {
-            print("Error! \(error)")
-        }
+       
     }
 
     override func didReceiveMemoryWarning() {
