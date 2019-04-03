@@ -27,7 +27,7 @@ Blog post here: https://medium.com/@ortizfernandomartin/customize-mapkits-mkmapv
   s.author           = { 'fmo91' => 'ortizfernandomartin@gmail.com' }
   s.source           = { :git => 'https://github.com/factoryhr/MapKitGoogleStyler.git', :branch => "MigrationpodspecChangeForTesting", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  spec.swift_version = ‘5.0’
   s.ios.deployment_target = '8.3'
   s.source_files = 'MapKitGoogleStyler/Classes/**/*'
   
